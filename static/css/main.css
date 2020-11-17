@@ -1,3 +1,5 @@
+@media screen and (min-width: 900px){
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0vh 10vw;
@@ -37,6 +39,9 @@ header{
 #myTabs{
     margin: 2vh auto;
     width: max-content;
+}
+#game_board>div>img{
+    max-width: 75vw;
 }
 /*-------------------nav css-------------------------------*/
 
@@ -112,3 +117,44 @@ a:focus {
   .tab-content > .active {
     display: block;
   }
+}
+@media screen and (max-width: 900px){
+    body{
+        margin: 0;
+    }
+    header{
+        width: 100vw;
+        display: flex;
+        max-height: 20vw;
+    }
+        #logo>img{width: 20vw;}
+        #title{
+            width: 45vw;
+            text-align: center;
+            font-size: 3vw;
+            max-height: 20vw;
+        }
+        #lebanon_flag>img{width: 35vw;}
+    h1,h2{
+        color: darkorange;
+    }
+
+    /*--------------------------colapse menu for mobile---------------------*/
+    nav{
+        display: none;
+    }
+    #main_content{
+        margin: 0 2vw;
+        border-bottom: 1px solid grey;
+    }
+    .part_content{
+        display: none;
+    }
+    .title{
+        border-top: 1px solid grey;
+        cursor: pointer;
+    }
+    #game_board>div>img{
+        max-width: 100%;
+    }
+}
