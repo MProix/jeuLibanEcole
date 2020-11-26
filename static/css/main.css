@@ -1,123 +1,123 @@
 @media screen and (min-width: 900px){
-
-body{
+    body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0vh 10vw;
     min-height: 100vh;
-}
-#page_content{
+    }
+    #page_content{
     /* background-color: antiquewhite; */
     padding: 1vh 2vw;
-}
-h1,h2{
+    }
+    h1,h2{
     color: darkorange;
-}
-header{
+    }
+    header{
     display: flex;
     justify-content: space-between;
-}
-#logo>img{
+    }
+    #logo>img{
     max-height: 15vh;
     max-width: 20vw;
-}
-#lebanon_flag>img{
+    }
+    #lebanon_flag>img{
     max-height: 15vh;
     max-width: 20vw;
-}
-#title{
+    }
+    #title{
     max-width: 50vw;
     text-align: center;
-}
+    }
 
-#main_content{
+    #main_content{
     background-image:  url("../../static/img/cedre.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
-}
+    }
 
-#myTabs{
+    #myTabs{
     margin: 2vh auto;
     width: max-content;
-}
-#game_board>div>img{
+    }
+    #game_board>div>img{
     max-width: 75vw;
-}
-/*-------------------nav css-------------------------------*/
+    }
+    /*-------------------nav css-------------------------------*/
 
-.nav-pills > li {
+    .nav-pills > li {
     float: left;
-}
-.nav-pills > li > a {
+    }
+    .nav-pills > li > a {
     border-radius: 4px;
-}
-.nav-pills > li + li {
+    }
+    .nav-pills > li + li {
     margin-left: 2px;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    }
+    .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
     background-color: darkorange;
-}
-.active {
+    }
+    .active {
     display: block;
-}
-.nav:before, .nav:after{
-  display: table;
-  content: " ";
-}
-a {
+    }
+    .nav:before, .nav:after{
+    display: table;
+    content: " ";
+    }
+    a {
     background-color: transparent;
-}
-a:active, a:hover {
+    }
+    a:active, a:hover {
     outline: 0;
-}
-a {
+    }
+    a {
     color: darkorange;
     text-decoration: none;}
-a:hover,
-a:focus {
+    a:hover,
+    a:focus {
     color: darkorange;
     text-decoration: underline;
-}
-a:focus {
+    }
+    a:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
-}
-.nav {
+    }
+    .nav {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-  }
-  .nav > li {
+    }
+    .nav > li {
     position: relative;
     display: block;
-  }
-  .nav > li > a {
+    }
+    .nav > li > a {
     position: relative;
     display: block;
     padding: 10px 15px;
     background-color: rgba(255,165,0,0.5);
-  }
-  .nav > li > a:hover,
-  .nav > li > a:focus {
+    }
+    .nav > li > a:hover,
+    .nav > li > a:focus {
     text-decoration: none;
     background-color: rgba(255,165,0,0.7);
-  }
- 
-  .nav .open > a,
-  .nav .open > a:hover,
-  .nav .open > a:focus {
+    }
+
+    .nav .open > a,
+    .nav .open > a:hover,
+    .nav .open > a:focus {
     background-color: #eeeeee;
     border-color: #337ab7;
-  }
+    }
 
-  .tab-content > .tab-pane {
+    .tab-content > .tab-pane {
     display: none;
-  }
-  .tab-content > .active {
+    }
+    .tab-content > .active {
     display: block;
-  }
+    }
 }
+/*------------------------------mobile screen-------------------------------------------------*/
 @media screen and (max-width: 900px){
     body{
         margin: 0;

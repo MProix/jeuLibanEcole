@@ -203,9 +203,10 @@ if (window.matchMedia("(min-width: 900px)").matches) {
   
 } else {
     $(".title").click(function(){
-      $($(this)[0].nextElementSibling).toggle();
+      $($(this)[0].nextElementSibling).toggle("slow");
       // $(this).nextElementSibling.toggle();  
     })
     $("#game_board>div>img").attr('src','./static/img/plateau_2.jpg');
 }
+
 

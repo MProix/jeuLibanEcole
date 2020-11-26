@@ -69,6 +69,7 @@
                     <img src="./static/img/plateau.jpg">
                     <p>Vous pouvez aussi utiliser ce jeu comme un calendrier de l’Avent et faire une case par jour : dans ce cas remplacez la case <strong>lancer de dé</strong> par un défi choisi en famille.</p>            
                 </div>
+            </div>
             <div role="tabpanel" class="tab-pane" id="gift">
                 <div class="title">
                     <h1>Notre don</h1>
@@ -94,6 +95,7 @@
                 <div class="part_content">
                     <p>Cliquer sur le numéro pour avoir l'explication !</p>
                     <h2>Explication de la case</h2>
+                    <div id="case0"><p>balal</p></div>
                 </div>
             </div>
             <div role="tabpanel" class="tab-pane" id="quizz">
